@@ -1,0 +1,159 @@
+[
+    {
+        "id":1,
+        "category":"men" ,
+        "slug":"1234"
+        ,"title":"men shirt",
+        "description":"shirt for men good style for handsome men",
+        "stock":12,
+        "img":"shirt-1.jpg",
+        "colors":["white","blue"],
+        "size":["md","lg","xl"],
+        "price":500
+    },
+    {
+        "id":2,
+        "slug":"1231",
+
+        "category":"men"
+         ,"title":"men shirt",
+        "description":"shirt for men good style for handsome men",
+        "stock":12,
+        "img":"shirt-9.jpg",
+        "colors":["green","yellow"],
+        "size":["md","xl"],
+        "price":300
+
+    },
+    {
+        "id":3,
+        "category":"women"
+         ,"title":"women pants",
+        "slug":"1232",
+
+        "description":"pants for women, style for handsome women",
+        "stock":12,
+        "img":"pants-women.jpg",
+        "price":600,
+
+        "colors":["blue","white"],
+        "size":["md","lg"]
+    },
+    {
+        "id":4,
+        "slug":"1233",
+
+        "category":"women"
+         ,"title":"dress",
+        "description":"dress for women, style for handsome women",
+        "stock":12,
+        "img":"dress-4.jpeg",
+        "price":700,
+
+        "colors":["blue","pink"],
+        "size":["md","lg"]
+    },
+    {
+        "id":5,
+        "slug":"1213",
+
+        "category":"women" 
+        ,"title":"dress",
+        "description":"dress for women, style for handsome women",
+        "stock":12,
+        "img":"dress-5.jpg",
+        "price":900,
+
+        "colors":["red","pink"],
+        "size":["md","lg"]
+    },
+    {
+        "id":6,
+        "category":"men" 
+        ,"title":"shirt",
+        "description":"shirt for men, style for handsome men",
+        "stock":12,
+        "slug":"1234",
+
+        "img":"shirt8.jpg",
+        "price":1000,
+
+        "colors":["white","pink"],
+        "size":["md","lg"]
+    },
+    {
+        "id":7,
+        "category":"men" 
+        ,"title":"shirt",
+        "slug":"1231",
+
+        "description":"shirt for men, style for handsome men",
+        "stock":12,
+        "img":"shirt-6.jpg",
+        "price":800,
+        
+        "colors":["white","blue"],
+        "size":["md","lg"]
+    },
+
+    {
+        "id":10,
+        "category":"men" 
+        ,"title":"men pants",
+        "slug":"1112",
+
+        "description":"pants for men, style for handsome men",
+        "stock":12,
+        "img":"jeans-on-white-free-photo.jpg",
+        "price":800,
+        
+        "colors":["white","blue"],
+        "size":["md","lg"]
+    },
+    {
+        "id":10,
+        "category":"men" 
+        ,"title":"men pants",
+        "slug":"1112",
+
+        "description":"pants for men, style for handsome men",
+        "stock":12,
+        "img":"jeans-on-white-free-photo.jpg",
+        "price":800,
+        
+        "colors":["white","blue"],
+        "size":["md","lg"]
+    },
+
+    {
+        "id":9,
+        "category":"men" 
+        ,"title":"shirt",
+        "slug":"1113",
+
+        "description":"shirt for men, style for handsome men",
+        "stock":12,
+        "img":"shirt-4.jpeg",
+        "price":350,
+        
+        "colors":["white","blue"],
+        "size":["md","lg"]
+    },
+    
+    {
+        "id":8,
+        "category":"women" 
+        ,"title":"dress",
+        "description":"dress for Women, style for handsome women",
+        "stock":12,
+        "slug":"1232",
+
+        "img":"dress-8.jpg",
+        "price":800,
+ 
+        "colors":["white","red"],
+        "size":["md","lg"]
+    }
+
+    
+]
