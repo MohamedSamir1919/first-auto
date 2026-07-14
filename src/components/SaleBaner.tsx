@@ -17,7 +17,7 @@ const SaleBanner: React.FC = () => {
   const [error, setError] = useState<string | null>(null)
 
   const shopBanner = useMemo(() => {
-    if (!banners || banners.length === 0) return null
+    if (!banners || banners?.length === 0) return null
     const filteredBanners = banners?.filter((banner) => banner.name === 'shop banner')
     return filteredBanners.length > 0 ? filteredBanners[filteredBanners.length - 1] : null
   }, [banners])
@@ -80,14 +80,14 @@ const SaleBanner: React.FC = () => {
           {/* Overlay */}
           <div className='absolute inset-0 bg-gradient-to-r from-black/50 to-black/30 flex flex-col items-center justify-center z-10'>
             <h1 className='font-bold text-2xl md:text-4xl px-4 py-2 text-white text-center drop-shadow-lg'>
-              {shopBanner.title}
+              {shopBanner?.title}
             </h1>
           </div>
 
           {/* Banner Image */}
           <img
-            src={shopBanner.img}
-            alt={shopBanner.title}
+            src={shopBanner?.img}
+            alt={shopBanner?.title}
             className='h-80 w-full object-cover'
             loading='lazy'
           />

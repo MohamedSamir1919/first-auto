@@ -7,7 +7,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF('/first-auto/brake.glb')
+  const { nodes, materials } = useGLTF('/first-auto/model/brake.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes['13482_Brake_Rotor_v1_L2'].geometry} material={materials.brake_rotor_body} rotation={[Math.PI, 0, 0]} />
@@ -15,4 +15,4 @@ export function Model(props) {
   )
 }
 
-useGLTF.preload('/first-auto/brake.glb')
+useGLTF.preload('/first-auto/model/brake.glb')

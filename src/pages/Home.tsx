@@ -21,7 +21,7 @@ const Home = () => {
           shadows
           dpr={[1, 2]}
           // Moved the camera much closer so a standard-sized model is visible
-          camera={{ position: [2, 5, 5], fov: 70 }}
+          camera={{ position: [2, 10, 10], fov: 100 }}
         >
           {/* Ambient light for subtle base illumination */}
           <ambientLight intensity={0.5} />
