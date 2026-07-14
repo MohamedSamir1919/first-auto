@@ -38,9 +38,9 @@ const Signup = () => {
       const { confirmPassword, ...signupData } = data;
 
       const res = await axios.post(`${import.meta.env.VITE_SERVER}/auth`, signupData, {
-        headers: {
-          Authorization: `Bearer ${Cookies.get('token')}`
-        }
+        // headers: {
+        //   Authorization: `Bearer ${Cookies.get('token')}`
+        // }
       });
 
       if (res.status === 200) {
